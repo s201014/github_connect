@@ -73,3 +73,6 @@ td.today {
 #next {
     float: right;
 }
+#prev {
+    float: left;
+}

@@ -5,7 +5,7 @@ var showDate = new Date(today.getFullYear(), today.getMonth(), 1);
 
 // 初期表示
 window.onload = function () {
-    showProcess(today, calendar);
+    showProcess(today/*, calendar*/);
 };
 // 前の月表示
 function prev(){
@@ -17,6 +17,12 @@ function prev(){
 function next(){
     showDate.setMonth(showDate.getMonth() + 1);
     showProcess(showDate);
+}
+
+//今月を表示
+function current() {
+    showDate = new Date(today.getFullYear(), today.getMonth(), 1);
+    showProcess(today/*, calendar*/);
 }
 
 // カレンダー表示
