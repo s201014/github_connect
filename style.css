@@ -13,6 +13,7 @@
     margin: 1rem 0 0;
 }
 
+
 /*カレンダー*/
 #calendar {
     text-align: center;
@@ -76,3 +77,8 @@ td.today {
 #prev {
     float: left;
 }
+#current{color: #c74141;
+ background-color: #D4BB92;}
+#current button:hover{
+    background-color: #000;
+    border-color: #D4B;}
