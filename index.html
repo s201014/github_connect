@@ -12,7 +12,9 @@
     <h1 id="header"></h1>
 
     <!-- ボタンクリックで今月に戻る -->
-    <button id="current" onclick="current()">今月</button>
+    <div id="current-button">
+      <button id="current" onclick="current()">今月</button>
+    </div>
 
     <!-- ボタンクリックで月移動 -->
     <div id="next-prev-button">
@@ -22,7 +24,10 @@
 
     <!-- カレンダー -->
     <div id="calendar"></div>
-    <button id="plan" oneclick="plan()">予定</button>
+    
+    <div id="plan-button">
+      <button id="plan" oneclick="plan()">予定</button>
+    </div>
  </div>
  <script src="script.js"></script>
   </body>

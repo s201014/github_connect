@@ -11,6 +11,8 @@
     font-size: 24px;
     width: 100%;
     margin: 1rem 0 0;
+    //margin: 10%;
+    //background-color: #000
 }
 
 
@@ -77,8 +79,30 @@ td.today {
 #prev {
     float: left;
 }
-#current{color: #c74141;
- background-color: #D4BB92;}
-#current button:hover{
-    background-color: #000;
-    border-color: #D4B;}
+#current {
+    color: #fff;
+    background-color: #B78D4A;
+     border: 1px solid #B78D4A;
+      border-radius: 4px;//角を丸くする
+    font-size: 5rem;
+    padding: 0.1rem 1rem;
+    margin: 1rem 0;
+}
+#current-button button:hover {
+    background-color: #D4BB92;
+    border-color: #D4BB92;
+
+  plan {
+    color: #fff;
+    background-color: #B78D4A;
+     border: 1px solid #B78D4A;
+      border-radius: 4px;//角を丸くする
+    font-size: 5rem;
+    padding: 0.1rem 1rem;
+    margin: 1rem 0;
+
+#plan-button button:hover {
+    background-color: #D4BBff;
+    border-color: #D4BBff;
+
+}
